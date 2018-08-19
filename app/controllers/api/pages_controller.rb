@@ -6,4 +6,8 @@ class Api::PagesController < ApplicationController
   def books
     render 'books.json.jbuilder'
   end
+
+  def show
+    render 'show.json.jbuilder'
+  end
 end
