@@ -3,8 +3,11 @@ Rails.application.routes.draw do
   # verb "/urls" => "namespace/controllers#action"
   namespace :api do
     get '/pages' => 'pages#index'
+
     
     get '/cups' => 'cups#index'
+    get '/pages/:id' => 'pages#show_hl'
+    get '/doggos' => 'doggos#index'
     get '/settings' => 'pages#settings'
     get '/zoom' => 'zoom#index'
     

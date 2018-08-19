@@ -1,4 +1,8 @@
 class Api::PagesController < ApplicationController
+  def fake_sayings_index
+    render 'fake_sayings_index.json.jbuilder'
+  end
+
   def index
     render 'index.json.jbuilder'
 
@@ -17,6 +21,10 @@ class Api::PagesController < ApplicationController
     
   def books
     render 'books.json.jbuilder'
+  end
+
+  def show_hl
+    render 'show_hl.json.jbuilder'
   end
 
   def show
