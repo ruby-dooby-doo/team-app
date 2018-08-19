@@ -5,5 +5,8 @@ class Api::PagesController < ApplicationController
 
   def settings
     render 'settings.json.jbuilder'
+    
+  def show
+    render 'show.json.jbuilder'
   end
 end
