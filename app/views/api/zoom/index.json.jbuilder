@@ -1,0 +1,1 @@
+json.annoying_control_bar "yes"
