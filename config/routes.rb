@@ -4,6 +4,6 @@ Rails.application.routes.draw do
   namespace :api do
     get '/pages' => 'pages#index'
 
-    get '/cups' => 'cupsindex'
+    get '/cups' => 'cups#index'
   end
 end
