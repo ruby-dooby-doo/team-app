@@ -4,5 +4,9 @@ Rails.application.routes.draw do
   namespace :api do
     get '/pages' => 'pages#index'
     get '/pages/:id' => 'pages#show_hl'
+    get '/doggos' => 'doggos#index'
+    get '/settings' => 'pages#settings'
+    get '/zoom' => 'zoom#index'
+    get '/pages/:id' => 'pages#show'
   end
 end
