@@ -1,0 +1,1 @@
+json.message "in cups index action"
