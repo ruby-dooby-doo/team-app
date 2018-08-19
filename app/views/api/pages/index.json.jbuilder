@@ -1,4 +1,7 @@
 json.message "hello"
+
+json.me "ines' message"
+
 json.dogs "Heather has 2 dogs."
 json.early_bird "Tracy"
 json.doggo "Thor"
@@ -10,4 +13,4 @@ json.josh "s"
 # Heather L
 json.message_hl "this is my message"
 json.my_name "Gina"
-json.message_hl "this is my message"
+
